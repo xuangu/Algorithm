@@ -11,4 +11,6 @@
 
 #include <stdio.h>
 
+void printOneToMaxOfNDigits(const int n);
+
 #endif /* _2_Print1ToMaxOfNDigits_hpp */

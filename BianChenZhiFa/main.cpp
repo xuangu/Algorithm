@@ -10,6 +10,7 @@
 #include "reverse_string.h"
 #include "permutation_string.hpp"
 #include "power.hpp"
+#include "12_Print1ToMaxOfNDigits.hpp"
 
 int main(int argc, const char * argv[]) {
 //    char s[] = "abcdefghigk";
@@ -24,6 +25,6 @@ int main(int argc, const char * argv[]) {
 //    print_string_all_permutation(s, 5);
     
 //    printf("%d\n", power(2, 7));
-    
+    printOneToMaxOfNDigits(2);
     return 0;
 }

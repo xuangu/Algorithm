@@ -28,14 +28,45 @@ void printOneToMaxOfNDigits(const int n) {
 }
 
 bool increment(char *number) {
+    int carryOnAtIndex = 0;
     bool isOverflow = false;
-    int carryOn = 0;
+    int lenOfNum = (int)strlen(number) - 1;
     
-    int lenOfNum = strlen(number) - 1;
+    for (int i = lenOfNum; i >= 0; i--) {
+        int bitNumAtIndex = number[i] - '0' + carryOnAtIndex;
+        if (i == lenOfNum) {
+            bitNumAtIndex++;
+        }
+        
+        // 判断是否溢出
+        if (bitNumAtIndex > 9) {
+            if (i == 0) {
+                isOverflow = true;
+            } else {
+                carryOnAtIndex = 1;
+                bitNumAtIndex -= 10;
+                number[i] = '0' + bitNumAtIndex;
+            }
+        } else {
+            number[i] = bitNumAtIndex + '0';
+            break;
+        }
+    }
     
+    return isOverflow;
     
 }
 
 void printNumber(char *number) {
+    int lenOfNum = (int)strlen(number) - 1;
+    int startPrintIndex = 0;
+    for (int i = 0; i < lenOfNum; i++) {
+        if (number[i] == '0') {
+            startPrintIndex++;
+        } else {
+            break;
+        }
+    }
     
+    printf("%s\n", &number[startPrintIndex]);
 }
