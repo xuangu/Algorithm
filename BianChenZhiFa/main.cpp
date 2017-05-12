@@ -11,6 +11,7 @@
 #include "permutation_string.hpp"
 #include "power.hpp"
 #include "12_Print1ToMaxOfNDigits.hpp"
+#include "14_ReorderArray.hpp"
 
 int main(int argc, const char * argv[]) {
 //    char s[] = "abcdefghigk";
@@ -25,6 +26,17 @@ int main(int argc, const char * argv[]) {
 //    print_string_all_permutation(s, 5);
     
 //    printf("%d\n", power(2, 7));
-    printOneToMaxOfNDigits(2);
+//    printOneToMaxOfNDigits(2);
+
+    // 14_ReorderArray
+//    int arr[] = {1, 3, 2, 5, 8, 9, 100};
+//    reorderArray(arr, 7);
+//    for (int i = 0; i < 7; i++) {
+//        printf("%d ", arr[i]);
+//    }
+//    printf("\n");
+    
+    
+    
     return 0;
 }

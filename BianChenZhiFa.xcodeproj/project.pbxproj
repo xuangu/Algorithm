@@ -13,6 +13,10 @@
 		C889F3031EC1F378007A9C13 /* fabonacci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C889F3011EC1F378007A9C13 /* fabonacci.cpp */; };
 		C88F3EA01EC33238007A1E74 /* power.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C88F3E9E1EC33238007A1E74 /* power.cpp */; };
 		C88F3EA31EC44526007A1E74 /* 12_Print1ToMaxOfNDigits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C88F3EA11EC44526007A1E74 /* 12_Print1ToMaxOfNDigits.cpp */; };
+		C88F3EA61EC56251007A1E74 /* 13_DeleteNodeInList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C88F3EA41EC56251007A1E74 /* 13_DeleteNodeInList.cpp */; };
+		C88F3EA91EC58D21007A1E74 /* 14_ReorderArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C88F3EA71EC58D21007A1E74 /* 14_ReorderArray.cpp */; };
+		C88F3EAC1EC59BBB007A1E74 /* 15_KthNodeFromEnd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C88F3EAA1EC59BBB007A1E74 /* 15_KthNodeFromEnd.cpp */; };
+		C88F3EAF1EC5B742007A1E74 /* 16_ReverseList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C88F3EAD1EC5B742007A1E74 /* 16_ReverseList.cpp */; };
 		C8CF62AC1EB9AE680069385F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8CF62AB1EB9AE680069385F /* main.cpp */; };
 		C8CF62B41EB9AE8D0069385F /* reverse_string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8CF62B21EB9AE8D0069385F /* reverse_string.cpp */; };
 /* End PBXBuildFile section */
@@ -42,6 +46,14 @@
 		C88F3E9F1EC33238007A1E74 /* power.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = power.hpp; sourceTree = "<group>"; };
 		C88F3EA11EC44526007A1E74 /* 12_Print1ToMaxOfNDigits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 12_Print1ToMaxOfNDigits.cpp; sourceTree = "<group>"; };
 		C88F3EA21EC44526007A1E74 /* 12_Print1ToMaxOfNDigits.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 12_Print1ToMaxOfNDigits.hpp; sourceTree = "<group>"; };
+		C88F3EA41EC56251007A1E74 /* 13_DeleteNodeInList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 13_DeleteNodeInList.cpp; sourceTree = "<group>"; };
+		C88F3EA51EC56251007A1E74 /* 13_DeleteNodeInList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 13_DeleteNodeInList.hpp; sourceTree = "<group>"; };
+		C88F3EA71EC58D21007A1E74 /* 14_ReorderArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 14_ReorderArray.cpp; sourceTree = "<group>"; };
+		C88F3EA81EC58D21007A1E74 /* 14_ReorderArray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 14_ReorderArray.hpp; sourceTree = "<group>"; };
+		C88F3EAA1EC59BBB007A1E74 /* 15_KthNodeFromEnd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 15_KthNodeFromEnd.cpp; sourceTree = "<group>"; };
+		C88F3EAB1EC59BBB007A1E74 /* 15_KthNodeFromEnd.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 15_KthNodeFromEnd.hpp; sourceTree = "<group>"; };
+		C88F3EAD1EC5B742007A1E74 /* 16_ReverseList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 16_ReverseList.cpp; sourceTree = "<group>"; };
+		C88F3EAE1EC5B742007A1E74 /* 16_ReverseList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 16_ReverseList.hpp; sourceTree = "<group>"; };
 		C8CF62A81EB9AE680069385F /* BianChenZhiFa */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BianChenZhiFa; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8CF62AB1EB9AE680069385F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C8CF62B21EB9AE8D0069385F /* reverse_string.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reverse_string.cpp; sourceTree = "<group>"; };
@@ -93,6 +105,14 @@
 				C88F3E9F1EC33238007A1E74 /* power.hpp */,
 				C88F3EA11EC44526007A1E74 /* 12_Print1ToMaxOfNDigits.cpp */,
 				C88F3EA21EC44526007A1E74 /* 12_Print1ToMaxOfNDigits.hpp */,
+				C88F3EA41EC56251007A1E74 /* 13_DeleteNodeInList.cpp */,
+				C88F3EA51EC56251007A1E74 /* 13_DeleteNodeInList.hpp */,
+				C88F3EA71EC58D21007A1E74 /* 14_ReorderArray.cpp */,
+				C88F3EA81EC58D21007A1E74 /* 14_ReorderArray.hpp */,
+				C88F3EAA1EC59BBB007A1E74 /* 15_KthNodeFromEnd.cpp */,
+				C88F3EAB1EC59BBB007A1E74 /* 15_KthNodeFromEnd.hpp */,
+				C88F3EAD1EC5B742007A1E74 /* 16_ReverseList.cpp */,
+				C88F3EAE1EC5B742007A1E74 /* 16_ReverseList.hpp */,
 			);
 			path = BianChenZhiFa;
 			sourceTree = "<group>";
@@ -154,13 +174,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C88F3EAC1EC59BBB007A1E74 /* 15_KthNodeFromEnd.cpp in Sources */,
+				C88F3EA61EC56251007A1E74 /* 13_DeleteNodeInList.cpp in Sources */,
 				C8CF62AC1EB9AE680069385F /* main.cpp in Sources */,
 				C889F3001EC1E895007A9C13 /* min_number_in_rotated_array.cpp in Sources */,
 				C8CF62B41EB9AE8D0069385F /* reverse_string.cpp in Sources */,
+				C88F3EAF1EC5B742007A1E74 /* 16_ReverseList.cpp in Sources */,
 				C889F2FD1EC16014007A9C13 /* build_tree.cpp in Sources */,
 				C88F3EA31EC44526007A1E74 /* 12_Print1ToMaxOfNDigits.cpp in Sources */,
 				C889F3031EC1F378007A9C13 /* fabonacci.cpp in Sources */,
 				C867F5F31EC092990099DA99 /* permutation_string.cpp in Sources */,
+				C88F3EA91EC58D21007A1E74 /* 14_ReorderArray.cpp in Sources */,
 				C88F3EA01EC33238007A1E74 /* power.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +284,7 @@
 		C8CF62B01EB9AE680069385F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -267,6 +292,7 @@
 		C8CF62B11EB9AE680069385F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
