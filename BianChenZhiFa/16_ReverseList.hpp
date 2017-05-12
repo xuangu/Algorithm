@@ -16,6 +16,6 @@ struct ListNode {
     ListNode *pNext;
 };
 
-void reverseList(ListNode *head);
+ListNode *reverseList(ListNode *head);
 
 #endif /* _6_ReverseList_hpp */
