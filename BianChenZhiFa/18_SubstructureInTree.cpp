@@ -23,7 +23,8 @@ bool isTree1HaveTree2(BinaryTreeNode *pRoot1, BinaryTreeNode *pRoot2) {
     if (pRoot1->value != pRoot2->value) {
         return false;
     }
-    return isTree1HaveTree2(pRoot1->pLeft, pRoot2->pRight) && isTree1HaveTree2(pRoot1->pRight, pRoot2->pRight);
+    
+    return isTree1HaveTree2(pRoot1->pLeft, pRoot2->pLeft) && isTree1HaveTree2(pRoot1->pRight, pRoot2->pRight);
 }
 
 bool hasSubTree(BinaryTreeNode *pRoot1, BinaryTreeNode *pRoot2) {
