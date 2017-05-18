@@ -15,6 +15,7 @@
 #include "17_MergeSortedLists.hpp"
 #include "20_PrintMatrix.hpp"
 #include "21_MinInStack.hpp"
+#include "22_StackPushPopOrder.hpp"
 
 int main(int argc, const char * argv[]) {
 //    char s[] = "abcdefghigk";
@@ -38,8 +39,6 @@ int main(int argc, const char * argv[]) {
 //        printf("%d ", arr[i]);
 //    }
 //    printf("\n");
-    
-
     
     return 0;
 }

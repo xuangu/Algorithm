@@ -12,6 +12,7 @@
 		C852692C1ECAA4720071A587 /* 19_MirrorOfBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C852692A1ECAA4720071A587 /* 19_MirrorOfBinaryTree.cpp */; };
 		C852692F1ECAA7D00071A587 /* 20_PrintMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C852692D1ECAA7D00071A587 /* 20_PrintMatrix.cpp */; };
 		C85269321ECBED1A0071A587 /* 21_MinInStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C85269301ECBED1A0071A587 /* 21_MinInStack.cpp */; };
+		C85269351ECBFA950071A587 /* 22_StackPushPopOrder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C85269331ECBFA950071A587 /* 22_StackPushPopOrder.cpp */; };
 		C867F5F31EC092990099DA99 /* permutation_string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C867F5F11EC092990099DA99 /* permutation_string.cpp */; };
 		C889F2FD1EC16014007A9C13 /* build_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C889F2FB1EC16014007A9C13 /* build_tree.cpp */; };
 		C889F3001EC1E895007A9C13 /* min_number_in_rotated_array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C889F2FE1EC1E895007A9C13 /* min_number_in_rotated_array.cpp */; };
@@ -49,6 +50,8 @@
 		C852692E1ECAA7D00071A587 /* 20_PrintMatrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 20_PrintMatrix.hpp; sourceTree = "<group>"; };
 		C85269301ECBED1A0071A587 /* 21_MinInStack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 21_MinInStack.cpp; sourceTree = "<group>"; };
 		C85269311ECBED1A0071A587 /* 21_MinInStack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 21_MinInStack.hpp; sourceTree = "<group>"; };
+		C85269331ECBFA950071A587 /* 22_StackPushPopOrder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 22_StackPushPopOrder.cpp; sourceTree = "<group>"; };
+		C85269341ECBFA950071A587 /* 22_StackPushPopOrder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 22_StackPushPopOrder.hpp; sourceTree = "<group>"; };
 		C867F5F11EC092990099DA99 /* permutation_string.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = permutation_string.cpp; sourceTree = "<group>"; };
 		C867F5F21EC092990099DA99 /* permutation_string.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = permutation_string.hpp; sourceTree = "<group>"; };
 		C889F2FB1EC16014007A9C13 /* build_tree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = build_tree.cpp; sourceTree = "<group>"; };
@@ -138,6 +141,8 @@
 				C852692E1ECAA7D00071A587 /* 20_PrintMatrix.hpp */,
 				C85269301ECBED1A0071A587 /* 21_MinInStack.cpp */,
 				C85269311ECBED1A0071A587 /* 21_MinInStack.hpp */,
+				C85269331ECBFA950071A587 /* 22_StackPushPopOrder.cpp */,
+				C85269341ECBFA950071A587 /* 22_StackPushPopOrder.hpp */,
 			);
 			path = BianChenZhiFa;
 			sourceTree = "<group>";
@@ -216,6 +221,7 @@
 				C867F5F31EC092990099DA99 /* permutation_string.cpp in Sources */,
 				C88F3EA91EC58D21007A1E74 /* 14_ReorderArray.cpp in Sources */,
 				C88F3EA01EC33238007A1E74 /* power.cpp in Sources */,
+				C85269351ECBFA950071A587 /* 22_StackPushPopOrder.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
