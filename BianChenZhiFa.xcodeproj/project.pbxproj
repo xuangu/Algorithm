@@ -26,6 +26,7 @@
 		C88F3EAF1EC5B742007A1E74 /* 16_ReverseList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C88F3EAD1EC5B742007A1E74 /* 16_ReverseList.cpp */; };
 		C8CF62AC1EB9AE680069385F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8CF62AB1EB9AE680069385F /* main.cpp */; };
 		C8CF62B41EB9AE8D0069385F /* reverse_string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8CF62B21EB9AE8D0069385F /* reverse_string.cpp */; };
+		C8F5C9991ED422C9003D0ACF /* 24_SequenceOfBST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8F5C9971ED422C9003D0ACF /* 24_SequenceOfBST.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -79,6 +80,8 @@
 		C8CF62AB1EB9AE680069385F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C8CF62B21EB9AE8D0069385F /* reverse_string.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reverse_string.cpp; sourceTree = "<group>"; };
 		C8CF62B31EB9AE8D0069385F /* reverse_string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reverse_string.h; sourceTree = "<group>"; };
+		C8F5C9971ED422C9003D0ACF /* 24_SequenceOfBST.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 24_SequenceOfBST.cpp; sourceTree = "<group>"; };
+		C8F5C9981ED422C9003D0ACF /* 24_SequenceOfBST.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 24_SequenceOfBST.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +151,8 @@
 				C85269341ECBFA950071A587 /* 22_StackPushPopOrder.hpp */,
 				C85269361ECE9DAB0071A587 /* 23_TraverseTreeInLevelOrder.cpp */,
 				C85269371ECE9DAB0071A587 /* 23_TraverseTreeInLevelOrder.hpp */,
+				C8F5C9971ED422C9003D0ACF /* 24_SequenceOfBST.cpp */,
+				C8F5C9981ED422C9003D0ACF /* 24_SequenceOfBST.hpp */,
 			);
 			path = BianChenZhiFa;
 			sourceTree = "<group>";
@@ -214,6 +219,7 @@
 				C88F3EA61EC56251007A1E74 /* 13_DeleteNodeInList.cpp in Sources */,
 				C85269321ECBED1A0071A587 /* 21_MinInStack.cpp in Sources */,
 				C8CF62AC1EB9AE680069385F /* main.cpp in Sources */,
+				C8F5C9991ED422C9003D0ACF /* 24_SequenceOfBST.cpp in Sources */,
 				C889F3001EC1E895007A9C13 /* min_number_in_rotated_array.cpp in Sources */,
 				C8CF62B41EB9AE8D0069385F /* reverse_string.cpp in Sources */,
 				C852692F1ECAA7D00071A587 /* 20_PrintMatrix.cpp in Sources */,
