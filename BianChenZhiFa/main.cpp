@@ -16,6 +16,7 @@
 #include "20_PrintMatrix.hpp"
 #include "21_MinInStack.hpp"
 #include "22_StackPushPopOrder.hpp"
+#include "24_SequenceOfBST.hpp"
 
 int main(int argc, const char * argv[]) {
 //    char s[] = "abcdefghigk";
