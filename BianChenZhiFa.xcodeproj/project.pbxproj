@@ -28,6 +28,8 @@
 		C8CF62B41EB9AE8D0069385F /* reverse_string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8CF62B21EB9AE8D0069385F /* reverse_string.cpp */; };
 		C8F5C9991ED422C9003D0ACF /* 24_SequenceOfBST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8F5C9971ED422C9003D0ACF /* 24_SequenceOfBST.cpp */; };
 		C8F5C9A41ED80BF6003D0ACF /* 25_PathInTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8F5C9A21ED80BF6003D0ACF /* 25_PathInTree.cpp */; };
+		C8F5C9A71ED918F6003D0ACF /* 26_CopyComplexList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8F5C9A51ED918F6003D0ACF /* 26_CopyComplexList.cpp */; };
+		C8F5C9B01ED92AD1003D0ACF /* 27_ConvertBST2SortedDoubleLinkList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8F5C9AE1ED92AD1003D0ACF /* 27_ConvertBST2SortedDoubleLinkList.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -85,6 +87,10 @@
 		C8F5C9981ED422C9003D0ACF /* 24_SequenceOfBST.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 24_SequenceOfBST.hpp; sourceTree = "<group>"; };
 		C8F5C9A21ED80BF6003D0ACF /* 25_PathInTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 25_PathInTree.cpp; sourceTree = "<group>"; };
 		C8F5C9A31ED80BF6003D0ACF /* 25_PathInTree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 25_PathInTree.hpp; sourceTree = "<group>"; };
+		C8F5C9A51ED918F6003D0ACF /* 26_CopyComplexList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 26_CopyComplexList.cpp; sourceTree = "<group>"; };
+		C8F5C9A61ED918F6003D0ACF /* 26_CopyComplexList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 26_CopyComplexList.hpp; sourceTree = "<group>"; };
+		C8F5C9AE1ED92AD1003D0ACF /* 27_ConvertBST2SortedDoubleLinkList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 27_ConvertBST2SortedDoubleLinkList.cpp; sourceTree = "<group>"; };
+		C8F5C9AF1ED92AD1003D0ACF /* 27_ConvertBST2SortedDoubleLinkList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 27_ConvertBST2SortedDoubleLinkList.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +164,10 @@
 				C8F5C9981ED422C9003D0ACF /* 24_SequenceOfBST.hpp */,
 				C8F5C9A21ED80BF6003D0ACF /* 25_PathInTree.cpp */,
 				C8F5C9A31ED80BF6003D0ACF /* 25_PathInTree.hpp */,
+				C8F5C9A51ED918F6003D0ACF /* 26_CopyComplexList.cpp */,
+				C8F5C9A61ED918F6003D0ACF /* 26_CopyComplexList.hpp */,
+				C8F5C9AE1ED92AD1003D0ACF /* 27_ConvertBST2SortedDoubleLinkList.cpp */,
+				C8F5C9AF1ED92AD1003D0ACF /* 27_ConvertBST2SortedDoubleLinkList.hpp */,
 			);
 			path = BianChenZhiFa;
 			sourceTree = "<group>";
@@ -235,7 +245,9 @@
 				C80796F41EC5FB1A003F9545 /* 17_MergeSortedLists.cpp in Sources */,
 				C85269291EC98A330071A587 /* 18_SubstructureInTree.cpp in Sources */,
 				C88F3EA31EC44526007A1E74 /* 12_Print1ToMaxOfNDigits.cpp in Sources */,
+				C8F5C9B01ED92AD1003D0ACF /* 27_ConvertBST2SortedDoubleLinkList.cpp in Sources */,
 				C889F3031EC1F378007A9C13 /* fabonacci.cpp in Sources */,
+				C8F5C9A71ED918F6003D0ACF /* 26_CopyComplexList.cpp in Sources */,
 				C867F5F31EC092990099DA99 /* permutation_string.cpp in Sources */,
 				C88F3EA91EC58D21007A1E74 /* 14_ReorderArray.cpp in Sources */,
 				C88F3EA01EC33238007A1E74 /* power.cpp in Sources */,
