@@ -9,37 +9,57 @@
 #include "25_PathInTree.hpp"
 
 void pathInTree(BinaryTreeNode *root, int sum) {
-    std::stack<BinaryTreeNode *> nodeStack;
-    int acculator = 0;
+    std::vector<BinaryTreeNode *> nodeStack;
     
-    if (root && root->value < sum) {
-        acculator += root->value;
-        nodeStack.push(root);
+    if (root) {
+        nodeStack.push_back(root);
         
         while (!nodeStack.empty()) {
-            while (root->pLeft && acculator < sum) {
-                root = root->pLeft;
-                acculator += root->value;
-                nodeStack.push(root);
+            while (root) {
+                while (root && root->pLVisited == false) {
+                    root->pLVisited = true;
+                    root = root->pLeft;
+                    if (root) {
+                        nodeStack.push_back(root);
+                    }
+                }
+                
+                root = nodeStack.back();
+                
+                if (root && root->pRvisited == false) {
+                    root->pRvisited = true;
+                    root = root->pRight;
+                    if (root) {
+                        nodeStack.push_back(root);
+                    }
+                    
+                    continue;
+                }
+                
+                if (root && root->pLeft == NULL && root->pRight == NULL) {
+                    root->pLVisited = true;
+                    root->pRvisited = true;
+                    break ;
+                }
             }
             
-            if (root->pLeft == NULL && acculator == sum) {
-                while (nodeStack.empty() == false) {
-                    printf("%d\n", nodeStack.top()->value);
-                    nodeStack.pop();
+            // 此时root指向叶子节点的左右空子节点
+            root = nodeStack.back();
+    
+            if (root->pLeft == NULL && root->pRight == NULL) {
+                int acculator = 0;
+                for (vector<BinaryTreeNode *>::iterator iter = nodeStack.begin(); iter < nodeStack.end(); iter++) {
+                    acculator += (*iter)->value;
+                    printf("%d  ", (*iter)->value);
                 }
-            } else {
-                acculator -= nodeStack.top()->value;
-                nodeStack.pop();
-                root = nodeStack.top();
-                if (root->pRight) {
-                    nodeStack.push(root->pRight);
-                    root = root->pRight;
-                }
+                
+                printf("sum:%d\n", acculator);
+            }
+            
+            while (root && root->pLVisited && root->pRvisited && !nodeStack.empty()) {
+                nodeStack.pop_back();
+                root = nodeStack.back();
             }
         }
     }
-    
-    
-    
 }

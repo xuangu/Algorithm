@@ -17,6 +17,7 @@
 #include "21_MinInStack.hpp"
 #include "22_StackPushPopOrder.hpp"
 #include "24_SequenceOfBST.hpp"
+#include "25_PathInTree.hpp"
 
 int main(int argc, const char * argv[]) {
 //    char s[] = "abcdefghigk";
@@ -40,6 +41,17 @@ int main(int argc, const char * argv[]) {
 //        printf("%d ", arr[i]);
 //    }
 //    printf("\n");
+    
+    BinaryTreeNode node1 = {4, NULL, NULL, false, false};
+    BinaryTreeNode node2 = {7, NULL, NULL, false, false};
+    BinaryTreeNode node3 = {5, &node1, &node2, false, false};
+    BinaryTreeNode node4 = {12, NULL, NULL, false, false};
+    BinaryTreeNode node5 = {10, &node3, &node4, false, false};
+    BinaryTreeNode node6 = {14, NULL, NULL, false, false};
+    BinaryTreeNode node7 = {18, NULL, &node5, false, false};
+    BinaryTreeNode node8 = {40, &node6, &node7, false, false};
+    
+    pathInTree(&node8, 22);
     
     return 0;
 }
