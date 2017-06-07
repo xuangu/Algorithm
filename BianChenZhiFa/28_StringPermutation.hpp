@@ -11,4 +11,6 @@
 
 #include <stdio.h>
 
+void stringPermutation(char *str, int len);
+
 #endif /* _8_StringPermutation_hpp */
