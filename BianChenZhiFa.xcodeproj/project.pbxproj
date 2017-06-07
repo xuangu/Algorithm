@@ -30,6 +30,7 @@
 		C8F5C9A41ED80BF6003D0ACF /* 25_PathInTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8F5C9A21ED80BF6003D0ACF /* 25_PathInTree.cpp */; };
 		C8F5C9A71ED918F6003D0ACF /* 26_CopyComplexList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8F5C9A51ED918F6003D0ACF /* 26_CopyComplexList.cpp */; };
 		C8F5C9B01ED92AD1003D0ACF /* 27_ConvertBST2SortedDoubleLinkList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8F5C9AE1ED92AD1003D0ACF /* 27_ConvertBST2SortedDoubleLinkList.cpp */; };
+		C8F5C9B31ED985CE003D0ACF /* 28_StringPermutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8F5C9B11ED985CE003D0ACF /* 28_StringPermutation.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -91,6 +92,8 @@
 		C8F5C9A61ED918F6003D0ACF /* 26_CopyComplexList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 26_CopyComplexList.hpp; sourceTree = "<group>"; };
 		C8F5C9AE1ED92AD1003D0ACF /* 27_ConvertBST2SortedDoubleLinkList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 27_ConvertBST2SortedDoubleLinkList.cpp; sourceTree = "<group>"; };
 		C8F5C9AF1ED92AD1003D0ACF /* 27_ConvertBST2SortedDoubleLinkList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 27_ConvertBST2SortedDoubleLinkList.hpp; sourceTree = "<group>"; };
+		C8F5C9B11ED985CE003D0ACF /* 28_StringPermutation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 28_StringPermutation.cpp; sourceTree = "<group>"; };
+		C8F5C9B21ED985CE003D0ACF /* 28_StringPermutation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 28_StringPermutation.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +171,8 @@
 				C8F5C9A61ED918F6003D0ACF /* 26_CopyComplexList.hpp */,
 				C8F5C9AE1ED92AD1003D0ACF /* 27_ConvertBST2SortedDoubleLinkList.cpp */,
 				C8F5C9AF1ED92AD1003D0ACF /* 27_ConvertBST2SortedDoubleLinkList.hpp */,
+				C8F5C9B11ED985CE003D0ACF /* 28_StringPermutation.cpp */,
+				C8F5C9B21ED985CE003D0ACF /* 28_StringPermutation.hpp */,
 			);
 			path = BianChenZhiFa;
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C852692C1ECAA4720071A587 /* 19_MirrorOfBinaryTree.cpp in Sources */,
+				C8F5C9B31ED985CE003D0ACF /* 28_StringPermutation.cpp in Sources */,
 				C88F3EAC1EC59BBB007A1E74 /* 15_KthNodeFromEnd.cpp in Sources */,
 				C88F3EA61EC56251007A1E74 /* 13_DeleteNodeInList.cpp in Sources */,
 				C8F5C9A41ED80BF6003D0ACF /* 25_PathInTree.cpp in Sources */,

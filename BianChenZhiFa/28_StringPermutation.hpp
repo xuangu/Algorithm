@@ -1,0 +1,14 @@
+//
+//  28_StringPermutation.hpp
+//  BianChenZhiFa
+//
+//  Created by guxuan on 27/05/2017.
+//  Copyright © 2017 gu. All rights reserved.
+//
+
+#ifndef _8_StringPermutation_hpp
+#define _8_StringPermutation_hpp
+
+#include <stdio.h>
+
+#endif /* _8_StringPermutation_hpp */
