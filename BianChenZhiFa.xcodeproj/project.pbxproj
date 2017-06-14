@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C80796F41EC5FB1A003F9545 /* 17_MergeSortedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C80796F21EC5FB1A003F9545 /* 17_MergeSortedLists.cpp */; };
+		C84746CD1EF12EF100BA254C /* 29_MoreThanHalfNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C84746CB1EF12EF100BA254C /* 29_MoreThanHalfNumber.cpp */; };
 		C85269291EC98A330071A587 /* 18_SubstructureInTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C85269271EC98A330071A587 /* 18_SubstructureInTree.cpp */; };
 		C852692C1ECAA4720071A587 /* 19_MirrorOfBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C852692A1ECAA4720071A587 /* 19_MirrorOfBinaryTree.cpp */; };
 		C852692F1ECAA7D00071A587 /* 20_PrintMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C852692D1ECAA7D00071A587 /* 20_PrintMatrix.cpp */; };
@@ -48,6 +49,8 @@
 /* Begin PBXFileReference section */
 		C80796F21EC5FB1A003F9545 /* 17_MergeSortedLists.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 17_MergeSortedLists.cpp; sourceTree = "<group>"; };
 		C80796F31EC5FB1A003F9545 /* 17_MergeSortedLists.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 17_MergeSortedLists.hpp; sourceTree = "<group>"; };
+		C84746CB1EF12EF100BA254C /* 29_MoreThanHalfNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 29_MoreThanHalfNumber.cpp; sourceTree = "<group>"; };
+		C84746CC1EF12EF100BA254C /* 29_MoreThanHalfNumber.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 29_MoreThanHalfNumber.hpp; sourceTree = "<group>"; };
 		C85269271EC98A330071A587 /* 18_SubstructureInTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 18_SubstructureInTree.cpp; sourceTree = "<group>"; };
 		C85269281EC98A330071A587 /* 18_SubstructureInTree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 18_SubstructureInTree.hpp; sourceTree = "<group>"; };
 		C852692A1ECAA4720071A587 /* 19_MirrorOfBinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 19_MirrorOfBinaryTree.cpp; sourceTree = "<group>"; };
@@ -173,6 +176,8 @@
 				C8F5C9AF1ED92AD1003D0ACF /* 27_ConvertBST2SortedDoubleLinkList.hpp */,
 				C8F5C9B11ED985CE003D0ACF /* 28_StringPermutation.cpp */,
 				C8F5C9B21ED985CE003D0ACF /* 28_StringPermutation.hpp */,
+				C84746CB1EF12EF100BA254C /* 29_MoreThanHalfNumber.cpp */,
+				C84746CC1EF12EF100BA254C /* 29_MoreThanHalfNumber.hpp */,
 			);
 			path = BianChenZhiFa;
 			sourceTree = "<group>";
@@ -257,6 +262,7 @@
 				C867F5F31EC092990099DA99 /* permutation_string.cpp in Sources */,
 				C88F3EA91EC58D21007A1E74 /* 14_ReorderArray.cpp in Sources */,
 				C88F3EA01EC33238007A1E74 /* power.cpp in Sources */,
+				C84746CD1EF12EF100BA254C /* 29_MoreThanHalfNumber.cpp in Sources */,
 				C85269351ECBFA950071A587 /* 22_StackPushPopOrder.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

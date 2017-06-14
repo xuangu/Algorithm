@@ -18,7 +18,8 @@
 #include "22_StackPushPopOrder.hpp"
 #include "24_SequenceOfBST.hpp"
 #include "25_PathInTree.hpp"
-#include "28_StringPermutation.hpp"
+//#include "28_StringPermutation.hpp"
+#include "29_MoreThanHalfNumber.hpp"
 
 int main(int argc, const char * argv[]) {
 //    char s[] = "abcdefghigk";
@@ -54,9 +55,11 @@ int main(int argc, const char * argv[]) {
 //    
 //    pathInTree(&node8, 22);
     
-    char str[] = "abcd";
+    int arr[] = {1, 2, 2};
     
-    stringPermutation(str, 5);
+    int num = numberThatMoreThanHalfLength(arr, 3);
+    
+    printf("%d\n", num);
     
     return 0;
 }

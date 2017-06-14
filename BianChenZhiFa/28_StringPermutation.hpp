@@ -6,6 +6,12 @@
 //  Copyright © 2017 gu. All rights reserved.
 //
 
+/* test case:
+     char str[] = "abcd";
+     
+     stringPermutation(str, 5);
+ */
+
 #ifndef _8_StringPermutation_hpp
 #define _8_StringPermutation_hpp
 
