@@ -55,11 +55,16 @@ int main(int argc, const char * argv[]) {
 //    
 //    pathInTree(&node8, 22);
     
-    int arr[] = {1, 2, 2};
-    
-    int num = numberThatMoreThanHalfLength(arr, 3);
+//    int arr[] = {2, 2, 2, 3, 2, 2, 2, 2, 1, 1, 2, 1};
+    int arr[] = {6, 4, 2, 5, 5, 1, 5, 3, 5, 5, 5};
+    int num = numberThatMoreThanHalfLength(arr, 11);
     
     printf("%d\n", num);
     
+    for (int i = 0; i < 11; i++) {
+        printf("%d  ", arr[i]);
+    }
+    
+    printf("\n");
     return 0;
 }

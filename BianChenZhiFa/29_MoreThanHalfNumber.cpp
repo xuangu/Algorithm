@@ -11,13 +11,18 @@
 
 using namespace std;
 
-int myPartition(int *numArr, int start, int end, int partNum) {
-    if (!numArr) {
+int myPartition(int *numArr, int len, int start, int end) {
+    if (!numArr || len < 1 || start < 0 || end > len - 1) {
         return -1;
     }
     
-    while (start < end) {
-        if (numArr[start] <= partNum) {
+    int partNum = numArr[start];
+    int partNumIndex = start;
+    
+    start++;
+    
+    while (start <= end) {
+        if (numArr[start] < partNum) {
             start++;
             continue ;
         }
@@ -29,26 +34,22 @@ int myPartition(int *numArr, int start, int end, int partNum) {
         
         swap(numArr[start], numArr[end]);
     }
+
+    swap(numArr[partNumIndex], numArr[--start]);
     
-    if (numArr[start] < partNum) {
-        swap(numArr[start], partNum);
-        return start;
-    } else {
-        return start - 1;
-    }
-    
+    return start;
 }
 
 
 int numberThatMoreThanHalfLength(int *numArr, int numArrLen) {
     
-    int index = myPartition(numArr, 1, numArrLen - 1, numArr[0]);
+    int index = myPartition(numArr, numArrLen, 0, numArrLen - 1);
     
     while (index != numArrLen / 2) {
         if (index > numArrLen / 2) {
-            index = myPartition(numArr, 1, index - 1, numArr[0]);
+            index = myPartition(numArr, numArrLen, 0, index - 1);
         } else {
-            index = myPartition(numArr, index + 2, numArrLen - 1, numArr[index + 1]);
+            index = myPartition(numArr, numArrLen, index + 1, numArrLen - 1);
         }
     }
     
